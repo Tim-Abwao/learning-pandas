@@ -1,0 +1,4 @@
+.hypothesis
+.pytest_cache
+.ipynb_checkpoints
+venv
