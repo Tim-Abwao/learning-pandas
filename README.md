@@ -1,33 +1,31 @@
 # Learning Pandas
 
-A collection of [Jupyter notebooks](https://jupyter.org) based on the  [official Pandas documentation](https://pandas.pydata.org/docs/). These are meant to help anyone going through the *pandas docs* to conveniently try out the described code examples.
+[![Binder](https://mybinder.org/badge_logo.svg)][1]
 
-## Prerequisites
-
-Familiarity with Python packages (e.g. `venv`, `pip`, `datetime`, [NumPy](https://numpy.org) and even [pandas](https://pandas.pydata.org) itself) would be advantageous, but is not a must.
+A collection of [Jupyter notebooks][2] based on the  [official Pandas documentation][3]. These are meant to help anyone going through the *pandas docs* to conveniently try out the described code examples.
 
 ## Getting started
 
-First, download the files and create a virtual environment to work in. Then activate the virtual environment.
+You can [run the notebooks online][1], right from your browser, courtesy of [Binder][4].
+
+To set up a local environment, download the files:
 
 ```bash
 git clone https://github.com/Tim-Abwao/learning-pandas.git
 cd learning-pandas
 python3 -m venv venv
 source venv/bin/activate
-```
-
-Afterwards, install the required modules.
-
-```bash
 pip install -U pip
 pip install -r requirements.txt
-
 ```
 
-Finally, start the notebook server and select a notebook ( *.ipynb file) to run.
+Then launch the notebook server and select a notebook ( *.ipynb file) to run.
 
 ```bash
 jupyter notebook
-
 ```
+
+[1]: https://mybinder.org/v2/gh/Tim-Abwao/learning-pandas/HEAD
+[2]: https://jupyter.org
+[3]: https://pandas.pydata.org/docs/
+[4]: https://mybinder.org
