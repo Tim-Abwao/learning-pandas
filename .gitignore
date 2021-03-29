@@ -2,3 +2,14 @@
 .pytest_cache
 .ipynb_checkpoints
 venv
+*.csv
+*.db
+*.dta
+*.feather
+*.h5
+*.hdf
+*.html
+*.json
+*.paraquet
+*.pkl*
+*.xlsx
