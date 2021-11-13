@@ -1,0 +1,14 @@
+beautifulsoup4
+bottleneck
+lxml
+matplotlib
+notebook
+numexpr
+odfpy
+openpyxl
+pandas
+pyarrow
+pyxlsb
+scipy
+tables
+tabulate
