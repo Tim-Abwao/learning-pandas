@@ -11,6 +11,6 @@ venv
 *.hdf
 *.html
 *.json
-*.paraquet
+*.parquet
 *.pkl*
 *.xlsx
